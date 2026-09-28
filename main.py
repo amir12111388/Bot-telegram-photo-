@@ -34,11 +34,11 @@ from telegram.ext import (
 # ============================================================
 
 BOT_TOKEN = os.getenv(
-    "8706955926:AAGEZ0vpCVmClxKZ1qIgMPGugAwLmqkcexA",
-    "8543053388:AAGi1jogpb4QbvrpJRflzGA3wZcgiKjflIw"
+    "8613949559:AAGuP_6r63gkl2DkkqLMiW146xA4HMVYk84",
+    "8543053388:AAGi1jogpb4pbvrpJRflzGA3wZcgiKjflIw"
 ).strip()
 
-OWNER_ID = int(os.getenv("OWNER_ID", "7624929669"))
+OWNER_ID = int(os.getenv("OWNER_ID", "7860500580"))
 
 DB_FILE = os.getenv("DB_FILE", "bot.db")
 
