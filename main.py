@@ -57,12 +57,6 @@ POLLINATIONS_API_KEY = os.getenv(
 ).strip()
 
 
-if not BOT_TOKEN or BOT_TOKEN == "YOUR_BOT_TOKEN_HERE":
-    raise RuntimeError(
-        "BOT_TOKEN را داخل کد یا متغیر محیطی BOT_TOKEN قرار بده."
-    )
-
-
 # ============================================================
 # POLLINATIONS ENDPOINTS
 # ============================================================
