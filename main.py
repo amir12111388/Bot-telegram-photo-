@@ -33,8 +33,7 @@ from telegram.ext import (
 # CONFIG
 # ============================================================
 
-token = os.environ.get("TOKEN")
-).strip()
+token = os.environ.get("TOKEN").strip()
 
 OWNER_ID = int(os.getenv("OWNER_ID", "7860500580"))
 
