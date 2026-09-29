@@ -1542,7 +1542,7 @@ def main():
     application = (
         Application
         .builder()
-        .token(BOT_TOKEN)
+        .token(token)
         .build()
     )
 
